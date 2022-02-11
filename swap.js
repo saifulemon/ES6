@@ -1,4 +1,4 @@
-// Swao Variable
+// Swap Variable
 let a, b;
 a = 4;
 b = 43;
