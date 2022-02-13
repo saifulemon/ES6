@@ -1,12 +1,12 @@
 // ES5 Constructor
-// function Person(name, age) {
-//     this.name = name;
-//     this.age = age;
-// }
+function Person(name, age) {
+    this.name = name;
+    this.age = age;
+}
 
-// Person.prototype.getName = function () {
-//     console.log(this.name);
-// }
+Person.prototype.getName = function () {
+    console.log(this.name);
+}
 
 
 // ES6 Class
