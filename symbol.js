@@ -9,15 +9,15 @@ let person = {
     age: 35,
     [a]: 'Hello World'
 }
-// console.log(person);
-// console.log(Object.getOwnPropertyNames(person));
-// console.log(Object.getOwnPropertySymbols(person));
-// console.log(Object.keys(person));
+console.log(person);
+console.log(Object.getOwnPropertyNames(person));
+console.log(Object.getOwnPropertySymbols(person));
+console.log(Object.keys(person));
 
 
-// for (x in person) {
-//     console.log(x);
-// }
+for (x in person) {
+    console.log(x);
+}
 
 
 let sym1 = Symbol('Hello');

@@ -1,9 +1,10 @@
 // ES6 fat arrow function
 // Normal function
 function number(n) {
+    
     return n;
 }
-console.log(number(50));
+onsole.log(number(50));
 
 
 
